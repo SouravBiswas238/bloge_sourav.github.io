@@ -90,6 +90,12 @@
         margin: 5px 0px;
         padding: 6px 14px;
     }
+    .form-input {
+        margin: 0px 0px;
+        margin-top: 0px;
+        border-radius: 35px;
+        width: 168px;
+    }
   }
 
 
@@ -101,15 +107,9 @@
     h1 {
         font-size: 1.5em;
     }
-    .form-input {
-        margin: 0px 0px;
-        margin-top: 0px;
-        border-radius: 35px;
-    }
+ 
     
-    .nav_right input{
-    width: 138px;
-    }
+   
 
   }
 
