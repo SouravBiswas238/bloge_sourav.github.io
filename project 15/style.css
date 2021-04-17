@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    /* background-color: red; */
+    /* height: 30px; */
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left img{
+    padding: 20px 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 83px;
+}
+.left_midel{
+    display: flex;
+    align-items: center;
+}
+.nav_middle ul{
+    display: flex;
+    justify-content: center;
+}
+.nav_middle ul li{
+    margin: 5px 4px;
+    padding: 12px 20px;
+    list-style: none;
+}
+.nav_right{
+font-family: var(--font2);
+}
+.content{
+    /* background-color: rgb(110, 106, 106); */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: black;
+    overflow: hidden;
+    
+
+}
+.content::before{
+   content: "";
+   background: rgb(212, 208, 208);
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   opacity: .2;
+}
+.content_box1{
+    width: 75%;
+    padding: 28px;
+    z-index: 1;
+
+}
+.content_box2{
+    width: 41%;
+    padding: 28px;
+    margin: auto;
+
+
+}
+.content_box2 img{
+    width: 67%;
+    border: 2px solid;
+    border-radius: 200px;
+}
+                  /* Home articales part start */
+.home_articals{
+   background: rgb(255 193 193 / 50%);
+}
+.home_articals h2{
+    padding: 8px 25px;
+}
+.home_articals .year_box{
+    position: absolute;
+    /* left: 962px; */
+    right: 26%;
+    width: 83px;
+}
+.year_box div{
+    padding: 5px 3px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.year_box span{
+    display: block;
+    font-size: 1.3rem;
+    padding: 3px 22px;
+
+
+}
+.home_artical{
+    display: flex;
+    padding: 10px 20px;
+}
+.home_artical a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+}
+.home_artical_image img{
+    height: 130px;
+    width: 130px;
+    padding: 10px;
+}
+.home_artical_content{
+    align-self: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    color: white;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}

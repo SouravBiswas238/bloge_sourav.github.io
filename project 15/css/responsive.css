@@ -1,0 +1,112 @@
+@media screen and (max-width: 948px) {
+    .navigation{
+        background-color: chartreuse;
+    }
+    .form-input{
+    margin: 0px 55px;
+    margin-top: 7px;
+    border-radius: 35px;
+
+    }
+    .btn{
+        padding: 3px 74px;
+        border-radius: 35px;
+        margin: 3px 69px;
+    }
+    .home_articals .year_box {
+        right: 107px;
+    }
+    .content_box2 img {
+        width: 93%;
+    }
+  }
+  @media screen and (max-width: 865px){
+    .navigation{
+        /* background-color: rgb(101, 116, 86); */
+    }
+    .form-input{
+        margin: 0px 5px;
+        margin-top: 7px;
+        border-radius: 35px;
+    
+        }
+        .btn{
+            padding: 3px 4px;
+            border-radius: 35px;
+            margin: 3px 69px;
+        }
+    .home_articals .year_box {
+        /* right: 121px; */
+    }
+
+  }
+  @media screen and (max-width: 805px){
+    .max_width_1{
+        width: 100%;
+    }
+    .max_width_2{
+        width: 100%;
+    }
+    .navigation{
+        background-color: rgb(75, 126, 202);
+        flex-direction: column;
+    }
+    .left_midel{
+        display: flex;
+        align-items: center;
+    }
+    .nav_right{
+        display: flex;
+    }
+    .btn{
+     margin: 0px;
+    }
+    .year_box {
+        display: none;   
+    }
+  }
+  @media screen and (max-width: 691px){
+    .content_box2{
+        display: none;
+    }
+    .content_box1 {
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 448px){
+    .m_2{
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .nav_right{
+        padding-bottom: 10px;
+    }
+    .home_artical_image img {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+    .nav_middle ul li {
+        margin: 5px 0px;
+        padding: 6px 14px;
+    }
+  }
+
+
+  @media screen and (max-width: 378px){
+    .navigation{
+        background-color: rgb(255, 244, 92);
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+  
+
+  }
+
+
+        /* Content For blogpost */
+        
+
+

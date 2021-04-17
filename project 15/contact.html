@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <!-- Other link start -->
+
+    <!-- fabicon.ico use for short icon beside title -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+
+    <!-- it is use for Null body autio -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!-- other link end -->
+    <!-- Last link is responsive and second last is style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<style>
+    .contacForm {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 22px;
+        background: url('img/socal.jpg') no-repeat center center/cover;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    .contacForm input {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 41%;
+        margin: 13px auto;
+        padding: 6px 8px;
+        border-radius: 29px;
+        outline: none;
+        font-size: 1.3rem;
+    }
+
+    .contacForm textarea {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 41%;
+        margin: 16px auto;
+        padding: 15px 8px;
+        border-radius: 29px;
+        outline: none;
+        font-size: 1.3rem;
+    }
+
+    .contacForm button {
+        margin: auto;
+        padding: initial;
+        margin-bottom: 191px;
+        padding: 13px 56px;
+        font-size: 1.5rem;
+        border-radius: 37px;
+        outline: none;
+        color: rgb(251, 255, 245);
+        background-color: rgb(117, 117, 121);
+    }
+</style>
+
+<body>
+    <nav class="navigation max_width_1 m_2 m_auto">
+        <div class="left_midel">
+            <div class="nav_left">
+                <img src="img/logo2.png" alt="logo">
+            </div>
+            <div class="nav_middle">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav_right">
+            <form action="search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="search blog">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+
+    <div class="home_articals max_width_1  m_2 m_auto">
+        <h2>Feel Free to contuct us</h2>
+        <div class="contacForm">
+            <h1>Let's Talk</h1>
+            <input type="text" name="text" placeholder="Enter your Name*">
+            <input type="number" name="number" placeholder="Enter your Phon Number*">
+            <input type="email" name="email" id="email" placeholder="Enter your email*">
+            <input type="text" name="subject" placeholder="Subject *">
+            <textarea id="w3review" name="w3review" rows="4" cols="50"
+                placeholder="Eter your description here"></textarea>
+
+            <button class="btn">Submit <i class="fas fa-arrow-alt-circle-right"></i> </button>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; redbloc.com </p>
+        <a href="https://www.vecteezy.com/free-vector/vector">Vector Vectors by Vecteezy</a>
+    </div>
+
+
+
+
+
+    <script src="js/modernizr-3.5.0.min.js"></script>
+
+</body>
+
+</html>
