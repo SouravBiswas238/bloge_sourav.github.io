@@ -106,7 +106,10 @@
         margin-top: 0px;
         border-radius: 35px;
     }
-  
+    
+    .nav_right input{
+    width: 128px;
+    }
 
   }
 
